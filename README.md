@@ -1,0 +1,1 @@
+Contains assets used by user scripts created for MouseHunt
