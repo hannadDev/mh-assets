@@ -1,0 +1,19 @@
+.hd-journal-log-button {
+    position: absolute;
+    left: 10px;
+    top: 60%;
+    font-size: 10px;
+    padding: 0 5px;
+    background: #ccc;
+    border: 1px solid #333;
+    line-height: 20px;
+    border-radius: 5px;
+    transform: translateY(-60%);
+    display: none;
+}
+
+#journalContainer .top:hover {
+    .hd-journal-log-button {
+        display: inherit;
+    }
+}
