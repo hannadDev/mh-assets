@@ -2,15 +2,15 @@ let hd_statics = {};
 
 hd_statics.monthMap = new Map();
 
-monthMap.set("January", 1);
-monthMap.set("February", 2);
-monthMap.set("March", 3);
-monthMap.set("April", 4);
-monthMap.set("May", 5);
-monthMap.set("June", 6);
-monthMap.set("July", 7);
-monthMap.set("August", 8);
-monthMap.set("September", 9);
-monthMap.set("October", 10);
-monthMap.set("November", 11);
-monthMap.set("December", 12);
+hd_statics.monthMap.set("January", 1);
+hd_statics.monthMap.set("February", 2);
+hd_statics.monthMap.set("March", 3);
+hd_statics.monthMap.set("April", 4);
+hd_statics.monthMap.set("May", 5);
+hd_statics.monthMap.set("June", 6);
+hd_statics.monthMap.set("July", 7);
+hd_statics.monthMap.set("August", 8);
+hd_statics.monthMap.set("September", 9);
+hd_statics.monthMap.set("October", 10);
+hd_statics.monthMap.set("November", 11);
+hd_statics.monthMap.set("December", 12);
