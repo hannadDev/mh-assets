@@ -54,3 +54,17 @@
   border: 1px solid #000;
   border-radius: 4px;
 }
+
+.hd-m-2 {
+  margin: 2px;
+}
+
+.hd-my-2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.hd-mx-2 {
+  margin-left: 2px;
+  margin-right: 2px;
+}
