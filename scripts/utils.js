@@ -1,4 +1,6 @@
-let hd_utils = {};
+let hd_utils = {
+  "mh": {}
+};
 
 hd_utils.addStyleElement = function (src) {
   const styleElement = document.createElement("link");
@@ -61,4 +63,14 @@ hd_utils.dragElement = function (elmnt, dragEl) {
     document.onmouseup = null;
     document.onmousemove = null;
   }
+}
+
+hd_utils.mh.isOwnJournal = function () {
+  const ownJournal = document.querySelector(`#journalContainer[data-owner="${user.user_id}"] .content`);
+
+  if (!ownJournal) {
+    return false;
+  }
+
+  return true;
 }
