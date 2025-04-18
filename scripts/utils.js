@@ -1,5 +1,6 @@
 let hd_utils = {
-  "mh": {}
+  "mh": {},
+  "idb": {}
 };
 
 hd_utils.addStyleElement = function (src) {
@@ -63,6 +64,13 @@ hd_utils.dragElement = function (elmnt, dragEl) {
     document.onmouseup = null;
     document.onmousemove = null;
   }
+}
+
+hd_utils.idb.asyncRequestWrapper = function (request) {
+  return new Promise(function (resolve, reject) {
+    request.onsuccess = r => resolve(r.target.result ?? undefined);
+    request.onerror = reject;
+  });
 }
 
 hd_utils.mh.isOwnJournal = function () {
